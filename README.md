@@ -1,10 +1,10 @@
-[Project Name] 🎯
+RANDOM QUOTE GENERATOR
 Basic Details
-Team Name: [Name]
+Team Name: Byte-Band
 Team Members
-Member 1: [Name] - [College]
-Member 2: [Name] - [College]
-Member 3: [Name] - [College]
+Member 1: Anjali Tinu - Model Engineering College
+Member 2: Alaina Raju - Model Engineering College
+Member 3: Anjana Rose Joju - Model Engineering College
 Hosted Project Link
 [mention your project hosted project link here]
 

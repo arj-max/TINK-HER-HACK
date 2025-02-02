@@ -11,7 +11,7 @@
 - Member 3: Anjana Rose Joju - Model Engineering College
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://arj-max.github.io/TINK-HER-HACK/
 
 ### Project Description
 The Random Quote Generator is a web-based application that allows users to generate, like, and save quotes based on different emotional categories. Users can also add their own custom quotes, and share their favorite quotes on social media. The interface is enhanced with dynamic background gradients, dark mode support, and category-based aesthetics to create an engaging user experience.

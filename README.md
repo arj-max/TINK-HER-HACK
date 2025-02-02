@@ -121,14 +121,15 @@ Code snippet of HTML in VS Code
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/1VMURS3aKumYHmFF7SIRTxMXQFu9S3eEJ/view?usp=sharing
+
+Demo of the website
 
 
 ## Team Contributions
-- Anjana Rose Joju: 
-- Anjali Tinu: 
-- Alaina Raju: 
+- Anjana Rose Joju: Bringing everything together, ensuring the frontend and backend work harmoniously. 
+- Anjali Tinu: Leveraged AI to enhance the background design with dynamic, user-specific gradients, making the UI more engaging , also focused on backend development
+- Alaina Raju: Used AI to automate the generation of random quotes, ensuring they fit into different emotional categories. 
 
 ---
 Made with ❤️ at TinkerHub

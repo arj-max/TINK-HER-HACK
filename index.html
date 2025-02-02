@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+</head>
+<body>
+    <div class="dark-mode-container">
+        <button id="dark-mode-toggle">🌙 Dark Mode</button>
+    </div>
+    <div class="container">
+    </div>
+    <div class="container">
+        <h1>Quotopia</h1>
+        <!-- Dropdown for selecting quote category -->
+        <label for="category">Select a category:</label>
+        <select id="category">
+            <option value="happiness">Happiness</option>
+            <option value="sadness">Sadness</option>
+            <option value="love">Love</option>
+            <option value="motivation">Motivation</option>
+            <option value="fear">Fear</option>
+            <option value="hope">Hope</option>
+            <option value="anger">Anger</option>
+            <option value="loneliness">Loneliness</option>
+            <option value="change">Change</option>
+            <option value="success">Success</option>
+            <option value="failure">Failure</option>
+            <option value="courage">Courage</option>
+            <option value="friendship">Friendship</option>
+            <option value="strength">Strength</option>
+            <option value="wisdom">Wisdom</option>
+            <option value="dreams">Dreams</option>
+            <option value="life">Life</option>
+            <option value="resilience">Resilience</option>
+            <option value="time">Time</option>
+            <option value="self_discovery">Self Discovery</option>
+            <option value="perseverance">Perseverance</option>
+            <option value="faith">Faith</option>
+        </select>
+
+        <p id="quote">Choose a category and click the button to get a quote.</p>
+        <button onclick="generateQuote()">Get Quote</button>
+        <button id="like-button" onclick="toggleLike()">❤️ Like</button>
+        <button id="unlike-button" onclick="toggleLike()" style="display: none;">💔 Unlike</button>
+
+        <!-- Favourites Section -->
+        <div id="favourites-section">
+            <h2>Your Favourite Quotes:</h2>
+            <ul id="favourites-list"></ul>
+        </div>
+        <div id="add-quote-section">
+            <h2>Add Your Own Quote</h2>
+            <label for="custom-quote">Enter Quote:</label>
+            <input type="text" id="custom-quote" placeholder="Type your quote here">
+            
+            <label for="custom-author">Author:</label>
+            <input type="text" id="custom-author" placeholder="Quote Author">
+            
+            <label for="custom-category">Select Category:</label>
+            <select id="custom-category">
+                <option value="happiness">Happiness</option>
+                <option value="sadness">Sadness</option>
+                <option value="love">Love</option>
+                <option value="motivation">Motivation</option>
+                <option value="fear">Fear</option>
+                <option value="hope">Hope</option>
+                <option value="anger">Anger</option>
+                <option value="loneliness">Loneliness</option>
+                <option value="change">Change</option>
+                <option value="success">Success</option>
+                <option value="failure">Failure</option>
+                <option value="courage">Courage</option>
+                <option value="friendship">Friendship</option>
+                <option value="strength">Strength</option>
+                <option value="wisdom">Wisdom</option>
+                <option value="dreams">Dreams</option>
+                <option value="life">Life</option>
+                <option value="resilience">Resilience</option>
+                <option value="time">Time</option>
+                <option value="self_discovery">Self Discovery</option>
+                <option value="perseverance">Perseverance</option>
+                <option value="faith">Faith</option>
+            </select>
+            
+            <button onclick="addCustomQuote()">➕ Add Quote</button>
+        </div>
+        
+        <!-- Display and remove added quotes -->
+        <div id="custom-quotes-section">
+            <h2>Your Custom Quotes</h2>
+            <ul id="custom-quotes-list"></ul>
+        </div>
+        
+        
+        
+        <!-- Social Media Share Section -->
+        <div id="share-section">
+            <h3>Share this Quote:</h3>
+            <button id="share-twitter">🐦 Twitter</button>
+            <button id="share-facebook">📘 Facebook</button>
+            <button id="share-whatsapp">📱 WhatsApp</button>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

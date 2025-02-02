@@ -1,0 +1,355 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    transition: background 1s ease-in-out, color 0.5s;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.5s ease-in-out;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+.container.dark-mode {
+    background: rgba(50, 50, 50, 0.9);
+}
+
+/* Favorite Section */
+#favourites-section {
+    margin-top: 30px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+#favourites-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#favourites-list li {
+    background: rgba(255, 255, 255, 0.3);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+/* Remove Button in Favorites */
+#favourites-list li button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#favourites-list li button:hover {
+    background: darkred;
+}body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    transition: background 1s ease-in-out, color 0.5s;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.5s ease-in-out;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+/* Wrapper for Dark Mode Toggle */
+.dark-mode-container {
+    position: absolute;
+    top: 20px; /* Adjust this as needed */
+    right: 20px; /* Align to the right */
+}
+
+#dark-mode-toggle {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.container.dark-mode {
+    background: rgba(50, 50, 50, 0.9);
+}
+
+/* Favorite Section */
+#favourites-section {
+    margin-top: 30px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+#favourites-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#favourites-list li {
+    background: rgba(255, 255, 255, 0.3);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+/* Remove Button in Favorites */
+#favourites-list li button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#favourites-list li button:hover {
+    background: darkred;
+}
+  
+  /* Themed Backgrounds for Categories */
+  .happiness {
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+  }
+  
+  .sadness {
+    background: linear-gradient(135deg, #485563, #29323c);
+  }
+  
+  .love {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  }
+  
+  .motivation {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  }
+  
+  .fear {
+    background: linear-gradient(135deg, #232526, #414345);
+  }
+  
+  .hope {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+  }
+  
+  .anger {
+    background: linear-gradient(135deg, #ff0844, #ffb199);
+  }
+  
+  .loneliness {
+    background: linear-gradient(135deg, #434343, #000000);
+  }
+  
+  .change {
+    background: linear-gradient(135deg, #f4c4f3, #fc67fa);
+  }
+  
+  .success {
+    background: linear-gradient(135deg, #56ab2f, #a8e063);
+  }
+  
+  .failure {
+    background: linear-gradient(135deg, #c31432, #240b36);
+  }
+  
+  .courage {
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+  }
+  
+  .friendship {
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+  }
+  
+  .strength {
+    background: linear-gradient(135deg, #373b44, #4286f4);
+  }
+  
+  .wisdom {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+  }
+  
+  .dreams {
+    background: linear-gradient(135deg, #00c9ff, #92fe9d);
+  }
+  
+  .life {
+    background: linear-gradient(135deg, #12c2e9, #c471ed, #f64f59);
+  }
+  
+  .resilience {
+    background: linear-gradient(135deg, #f7971e, #ffd200);
+  }
+  
+  .time {
+    background: linear-gradient(135deg, #00f260, #0575e6);
+  }
+  
+  .self_discovery {
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+  }
+  
+  .perseverance {
+    background: linear-gradient(135deg, #ff5f6d, #ffc371);
+  }
+  
+  .faith {
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+  }
+  
+  /* Transition for Smooth Background Changes */
+  body {
+    transition: background 1s ease-in-out;
+  }
+  #share-section button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#share-twitter { background: #1DA1F2; color: white; }
+#share-facebook { background: #1877F2; color: white; }
+#share-whatsapp { background: #25D366; color: white; }
+/* Center-align the add quote section */
+#add-quote-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: transparent; /* Changed to transparent */
+    width: 90%;  /* Adjust width to fit better in various screen sizes */
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow to make the section stand out */
+}
+
+/* Remove borders from inputs, select, and make them aesthetically pleasing */
+#add-quote-section input, #add-quote-section select {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;  /* Full width of the container */
+    border: none;  /* No visible borders */
+    border-radius: 8px;
+    background-color: #e0e0e0; /* Light grey background for input fields */
+    box-sizing: border-box;  /* Ensures padding is included in the width */
+    transition: all 0.3s ease;  /* Smooth transition for focus effect */
+}
+
+/* Remove outline and change background on focus */
+#add-quote-section input:focus, #add-quote-section select:focus {
+    outline: none;
+    background-color: #ffffff; /* White background when focused */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Slight shadow for focus effect */
+}
+
+/* Styling the Add Quote button */
+#add-quote-section button {
+    background-color: #555; /* Neutral background color to match other elements */
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    width: 100%;  /* Button spans the full width of the container */
+    box-sizing: border-box;
+}
+
+/* Button hover effect */
+#add-quote-section button:hover {
+    background-color: #444; /* Darker shade for hover effect */
+}
+
+/* Button focus effect */
+#add-quote-section button:focus {
+    outline: none;
+    background-color: #333; /* Even darker shade for focus effect */
+}
+/* Styling for the title */
+h1 {
+    font-family: 'Dancing Script', cursive; /* Apply Dancing Script font */
+    font-size: 4em; /* Adjust size as needed */
+    font-weight: bold;
+    color: #333; /* Change the color if necessary */
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Adjust margin for spacing */
+}
+/* Styling for displayed quote */
+#quote {
+    font-family: 'Charm', cursive; /* Apply Charm font */
+    font-size: 1.5em; /* Increase font size */
+    font-weight: bold; /* Make it stand out */
+    text-align: center; /* Center align */
+    margin-top: 20px;
+    line-height: 1.5; /* Improve readability */
+}
+/* Reduce font size for section headings */
+h2 {
+    font-size: 1.1em; /* Decrease size */
+    font-weight: bold; /* Keep it noticeable */
+    text-align: center; /* Center alignment */
+    margin-top: 10px;
+}

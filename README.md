@@ -1,3 +1,6 @@
+
+
+
 # RANDOM QUOTE GENERATOR 🎯
 
 
@@ -95,14 +98,14 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="959" alt="sc1" src="https://github.com/user-attachments/assets/fb5fccfc-02d6-4190-997e-b50c47fe1e47" />
+The final website
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img width="959" alt="sc2" src="https://github.com/user-attachments/assets/d2058651-b5bf-40c7-b5fd-c0e19833aba9" />
+Github repository containing the project and a code snippet of javascript
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="959" alt="sc3" src="https://github.com/user-attachments/assets/9e73b81c-93a4-45fb-92f9-6cc315825ca5" />
+Code snippet of HTML in VScode
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)

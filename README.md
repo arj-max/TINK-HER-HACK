@@ -82,23 +82,14 @@ Solution: The ability to add custom quotes, choose categories, and toggle dark m
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
-
-### Implementation
-For Software:
-# Installation
-[commands]
+- Languages used:- HTML,CSS,javascript
+- AI Tools:- Chatgpt
+- Code editor:-Microsoft Visual Studio Code 
 
 # Run
-[commands]
+# To view the website:
+1. Open the `index.html` file in your browser (Chrome, Firefox, etc.)
+
 
 ### Project Documentation
 For Software:

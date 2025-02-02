@@ -103,13 +103,16 @@ For Software:
 
 The final website
 
+
 <img width="959" alt="sc2" src="https://github.com/user-attachments/assets/d2058651-b5bf-40c7-b5fd-c0e19833aba9" />
 
 Github repository containing the project and a code snippet of javascript
 
+
 <img width="959" alt="sc3" src="https://github.com/user-attachments/assets/9e73b81c-93a4-45fb-92f9-6cc315825ca5" />
 
-Code snippet of HTML in VScode
+Code snippet of HTML in VS Code
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)

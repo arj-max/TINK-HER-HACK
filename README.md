@@ -14,10 +14,10 @@
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+The Random Quote Generator is a web-based application that allows users to generate, like, and save quotes based on different emotional categories. Users can also add their own custom quotes, and share their favorite quotes on social media. The interface is enhanced with dynamic background gradients, dark mode support, and category-based aesthetics to create an engaging user experience.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+The Random Quote Generator project aims to provide a platform for users to generate motivational and emotional quotes, customize their experience, and store their favorite quotes. While quotes are a great source of inspiration, most quote websites have limited options for personalization, aesthetic choices, and functionality.
 
 ### The Solution
 [How are you solving it? Keep it fun!]

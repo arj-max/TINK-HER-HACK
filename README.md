@@ -115,8 +115,7 @@ Code snippet of HTML in VS Code
 
 
 
-# Build Photos
-![Team](Add photo of your team here)
+
 
 
 ### Project Demo
